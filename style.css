@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+/*font-family: "Reddit Mono", monospace;*/
+
+* {
+  box-sizing: border-box;
+
+  body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Reddit Mono;
+    color: #ffffff;
+  }
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+.card-container {
+  background-color: #0cb1c7da;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  width: 30%;
+  height: 100%;
+  box-shadow: 1rem 1rem #1d2131;
+  border: 0.15rem solid #1d2131;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 1.15rem;
+  }
+  .card-container {
+    width: 100%;
+    height: 100%;
+  }
+  .editor-quote {
+    font-size: 0.9rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95%;
+  padding: 2rem 2rem;
+  border-radius: 0.65rem;
+  margin: auto;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+.editor-description {
+  font-size: 1.45rem;
+  font-weight: 400;
+  text-align: justify;
+}
+.editor-quote {
+  font-style: italic;
+  font-size: 1.35rem;
+}
+
+.button-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.button-container {
+  background-color: #129ac4;
+  color: #e4ebff;
+  border-radius: 2rem;
+  border-style: none;
+  padding: 0.7rem 1.5rem;
+  font-family: "Reddit Mono", cursive;
+  font-size: 1.35rem;
+  border-bottom: 5px solid #2297bb;
+}
+.button-container:hover {
+  background-color: aqua;
+  color: azure;
+}
+@media screen (min-w) {
+}
